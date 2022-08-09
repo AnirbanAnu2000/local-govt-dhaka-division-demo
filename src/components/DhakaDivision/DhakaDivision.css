@@ -1,0 +1,32 @@
+*{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+  /* background-color: rgb(255, 255, 255, 0.1); */
+  background: url('../../../public/images/bg9.jpg') repeat;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../../../public/images/bg9.jpg) repeat; */
+  background-attachment: fixed;
+}
+
+#carouselExampleFade .carousel-item {
+  height: 350px;
+}
+
+#carouselExampleFade .carousel-item img{  
+  height: 100% !important;
+}
+
+.accordion-item-district:hover {
+  text-align: center;
+}
+
+.dhaka-div-lg-heading {
+  color: rgba(0, 0, 0, 0.7);
+  background: #222;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0026ff 0px 0px 20px, #0026ff 0px 0px 30px, #0026ff 0px 0px 40px, #0026ff 0px 0px 50px, #0026ff 0px 0px 75px;
+}
+
+.anu{
+  color: rgba(21, 139, 241, 0.7);
+}
