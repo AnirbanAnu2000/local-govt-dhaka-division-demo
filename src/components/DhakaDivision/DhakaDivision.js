@@ -1,36 +1,73 @@
-import React from 'react';
+// import React, { useEffect, useRef } from 'react';
 import './DhakaDivision.css';
 import { Link } from "react-router-dom";
+// import Typed from 'typed.js';
 
 const DhakaDivision = () => {
 
   return (
     <div>
       <div className='container mt-4'>
+
         {/* Slider start */}
         <div className='row'>
           <div className='col-lg-12'>
             <div id="carouselExampleFade" className="carousel slide carousel-fade p-3 bg-secondary" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider9.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider2.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider3.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider4.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider5.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider6.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
+                  {/* animation start */}
+                  <div class="animation_title">
+                    <div class="animation_text fw-bold">ঢাকা বিভাগ</div>
+                  </div>
+                  {/* animation end */}
                   <img src="./images/slider/slider7.jpg" className="d-block w-100" alt="..." />
                 </div>
               </div>
