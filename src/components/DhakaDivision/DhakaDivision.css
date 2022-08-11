@@ -4,7 +4,8 @@
 
 body {
   /* background-color: rgb(255, 255, 255, 0.1); */
-  background: url('../../../public/images/bg9.jpg') repeat;
+  /* background: url(https://img.freepik.com/free-vector/white-black-halftone-background_1409-1305.jpg?size=626&ext=jpg&ga=GA1.2.1397690407.1659639255) repeat; */
+  background: url('../../../public/images/bg13.jpg') repeat;
   /* background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(../../../public/images/bg9.jpg) repeat; */
   background-attachment: fixed;
 }
@@ -23,10 +24,72 @@ body {
 
 .dhaka-div-lg-heading {
   color: rgba(0, 0, 0, 0.7);
-  background: #222;
+  background: #0c022a;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0026ff 0px 0px 20px, #0026ff 0px 0px 30px, #0026ff 0px 0px 40px, #0026ff 0px 0px 50px, #0026ff 0px 0px 75px;
 }
 
-.anu{
-  color: rgba(21, 139, 241, 0.7);
+anu{
+  background-color: #0c022a;
 }
+
+/* background animation start */
+
+/* @-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+body {
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  animation: bg-scrolling-reverse 0.92s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+} */
+
+/* background animation end */
+
+

@@ -1,7 +1,9 @@
 import React from 'react';
 import './DhakaDivision.css';
+import { Link } from "react-router-dom";
 
 const DhakaDivision = () => {
+
   return (
     <div>
       <div className='container mt-4'>
@@ -84,7 +86,8 @@ const DhakaDivision = () => {
                             <div className="collapse navbar-collapse" id="navbarNav">
                               <ul className="navbar-nav">
                                 <li className="nav-item">
-                                  <a className="btn btn-primary fw-bold" href='#'>ঢাকা জেলা পরিষদ</a>
+                                  {/* <a className="btn btn-primary fw-bold" href='#'>ঢাকা জেলা পরিষদ</a> */}
+                                  <Link to="/dhakadistrictcouncil" className="btn btn-primary fw-bold">ঢাকা জেলা পরিষদ</Link>
                                 </li>
                               </ul>
                             </div>
@@ -414,10 +417,10 @@ const DhakaDivision = () => {
           </div>
         </div>
       </div>
-        <div className='text-center mt-4 bg-dark'>
-          <img src='./images/dhaka-div-map.png' alt='' width={300} />
-          <span className='fw-bold text-primary' style={{fontSize:"18px"}}>সকল তথ্য কমিশনারের কার্যালয় ঢাকা বিভাগ কর্তৃক সংরক্ষিত</span>
-        </div>
+      <div className='text-center mt-4' style={{backgroundColor: "#0c022a"}}>
+        <img src='./images/dhaka-div-map.png' alt='' width={200} />
+        <span className='fw-bold text-primary text-white' style={{fontSize:"18px", fontWeight: "700"}}>সকল তথ্য কমিশনারের কার্যালয় ঢাকা বিভাগ কর্তৃক সংরক্ষিত</span>
+      </div>
     </div>
 
   );
